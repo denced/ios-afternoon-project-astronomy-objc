@@ -126,6 +126,11 @@
                         <viewLayoutGuide key="safeArea" id="D6B-gm-Z6Z"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="lih-Yj-E4L"/>
+                    <connections>
+                        <outlet property="cameraLabel" destination="3Zz-ST-9UF" id="Xgi-QJ-luZ"/>
+                        <outlet property="detailLabel" destination="2qF-t5-t2x" id="GJa-lr-pH5"/>
+                        <outlet property="imageView" destination="Eu0-hD-HLC" id="m4A-o2-dHn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3U-a0-WSv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

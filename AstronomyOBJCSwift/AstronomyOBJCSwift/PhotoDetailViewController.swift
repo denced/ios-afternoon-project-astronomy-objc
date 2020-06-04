@@ -1,6 +1,6 @@
 //
-//  DetailViewController.swift
-//  AstronomyObjC
+//  PhotoDetailViewController.swift
+//  AstronomyOBJCSwift
 //
 //  Created by denis cedeno on 6/4/20.
 //  Copyright © 2020 DenCedeno Co. All rights reserved.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
-    
+class PhotoDetailViewController: UIViewController {
+
+ 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var cameraLabel: UILabel!
@@ -43,6 +44,5 @@ class DetailViewController: UIViewController {
             NSLog("Error setting up views on detail view controller: \(error)")
         }
     }
-    
-    
+
 }

@@ -1,6 +1,6 @@
 //
-//  MarsPhoto.h
-//  AstronomyObjC
+//  DSCMarsRoverClient.h
+//  AstronomyOBJCSwift
 //
 //  Created by denis cedeno on 6/4/20.
 //  Copyright © 2020 DenCedeno Co. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MarsPhoto : NSObject
+@interface DSCMarsRoverClient : NSObject
 
 @end
 

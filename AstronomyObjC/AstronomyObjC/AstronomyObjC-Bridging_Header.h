@@ -6,8 +6,12 @@
 //  Copyright © 2020 DenCedeno Co. All rights reserved.
 //
 
-#ifndef AstronomyObjC_Bridging_Header_h
-#define AstronomyObjC_Bridging_Header_h
+//#ifndef AstronomyObjC_Bridging_Header_h
+//#define AstronomyObjC_Bridging_Header_h
+//
+//
+//#endif /* AstronomyObjC_Bridging_Header_h */
+
+#import "DSCMarsPhoto.h"
 
 
-#endif /* AstronomyObjC_Bridging_Header_h */

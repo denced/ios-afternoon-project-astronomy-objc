@@ -20,10 +20,11 @@
 		129F0F1C24895D79005CF9F6 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F1B24895D79005CF9F6 /* MainCollectionViewController.swift */; };
 		129F0F1E24895D98005CF9F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F1D24895D98005CF9F6 /* DetailViewController.swift */; };
 		129F0F2024895E00005CF9F6 /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F1F24895E00005CF9F6 /* MarsRover.swift */; };
-		129F0F2324895E78005CF9F6 /* MarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F2224895E78005CF9F6 /* MarsRoverClient.m */; };
-		129F0F2624895EA4005CF9F6 /* MarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F2524895EA4005CF9F6 /* MarsPhoto.m */; };
-		129F0F2924895ED1005CF9F6 /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F2824895ED1005CF9F6 /* SolDescription.m */; };
 		129F0F2B24896038005CF9F6 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F2A24896038005CF9F6 /* ImageCollectionViewCell.swift */; };
+		129F0F3124896A89005CF9F6 /* DSCCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F3024896A89005CF9F6 /* DSCCamera.m */; };
+		129F0F3424896AA9005CF9F6 /* DSCSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F3324896AA9005CF9F6 /* DSCSolDescription.m */; };
+		129F0F3724896ADC005CF9F6 /* DSCMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F3624896ADC005CF9F6 /* DSCMarsRoverClient.m */; };
+		129F0F3A24896B28005CF9F6 /* DSCMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F0F3924896B28005CF9F6 /* DSCMarsPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,14 +48,16 @@
 		129F0F1B24895D79005CF9F6 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
 		129F0F1D24895D98005CF9F6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		129F0F1F24895E00005CF9F6 /* MarsRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRover.swift; sourceTree = "<group>"; };
-		129F0F2124895E78005CF9F6 /* MarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsRoverClient.h; sourceTree = "<group>"; };
-		129F0F2224895E78005CF9F6 /* MarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsRoverClient.m; sourceTree = "<group>"; };
-		129F0F2424895EA4005CF9F6 /* MarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsPhoto.h; sourceTree = "<group>"; };
-		129F0F2524895EA4005CF9F6 /* MarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPhoto.m; sourceTree = "<group>"; };
-		129F0F2724895ED1005CF9F6 /* SolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolDescription.h; sourceTree = "<group>"; };
-		129F0F2824895ED1005CF9F6 /* SolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolDescription.m; sourceTree = "<group>"; };
 		129F0F2A24896038005CF9F6 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		129F0F2E248962BD005CF9F6 /* AstronomyObjC-Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AstronomyObjC-Bridging_Header.h"; sourceTree = "<group>"; };
+		129F0F2F24896A89005CF9F6 /* DSCCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCCamera.h; sourceTree = "<group>"; };
+		129F0F3024896A89005CF9F6 /* DSCCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCCamera.m; sourceTree = "<group>"; };
+		129F0F3224896AA9005CF9F6 /* DSCSolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCSolDescription.h; sourceTree = "<group>"; };
+		129F0F3324896AA9005CF9F6 /* DSCSolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCSolDescription.m; sourceTree = "<group>"; };
+		129F0F3524896ADC005CF9F6 /* DSCMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCMarsRoverClient.h; sourceTree = "<group>"; };
+		129F0F3624896ADC005CF9F6 /* DSCMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCMarsRoverClient.m; sourceTree = "<group>"; };
+		129F0F3824896B28005CF9F6 /* DSCMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSCMarsPhoto.h; sourceTree = "<group>"; };
+		129F0F3924896B28005CF9F6 /* DSCMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSCMarsPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +98,14 @@
 				129F0F2A24896038005CF9F6 /* ImageCollectionViewCell.swift */,
 				129F0F1D24895D98005CF9F6 /* DetailViewController.swift */,
 				129F0F1F24895E00005CF9F6 /* MarsRover.swift */,
-				129F0F2424895EA4005CF9F6 /* MarsPhoto.h */,
-				129F0F2524895EA4005CF9F6 /* MarsPhoto.m */,
-				129F0F2724895ED1005CF9F6 /* SolDescription.h */,
-				129F0F2824895ED1005CF9F6 /* SolDescription.m */,
-				129F0F2124895E78005CF9F6 /* MarsRoverClient.h */,
-				129F0F2224895E78005CF9F6 /* MarsRoverClient.m */,
+				129F0F2F24896A89005CF9F6 /* DSCCamera.h */,
+				129F0F3024896A89005CF9F6 /* DSCCamera.m */,
+				129F0F3824896B28005CF9F6 /* DSCMarsPhoto.h */,
+				129F0F3924896B28005CF9F6 /* DSCMarsPhoto.m */,
+				129F0F3224896AA9005CF9F6 /* DSCSolDescription.h */,
+				129F0F3324896AA9005CF9F6 /* DSCSolDescription.m */,
+				129F0F3524896ADC005CF9F6 /* DSCMarsRoverClient.h */,
+				129F0F3624896ADC005CF9F6 /* DSCMarsRoverClient.m */,
 				129F0F0F24889E63005CF9F6 /* LambdaSDK */,
 				129F0EFF24889DFA005CF9F6 /* Main.storyboard */,
 				129F0F0224889DFF005CF9F6 /* Assets.xcassets */,
@@ -197,16 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129F0F3124896A89005CF9F6 /* DSCCamera.m in Sources */,
+				129F0F3424896AA9005CF9F6 /* DSCSolDescription.m in Sources */,
 				129F0F1E24895D98005CF9F6 /* DetailViewController.swift in Sources */,
 				129F0F2024895E00005CF9F6 /* MarsRover.swift in Sources */,
+				129F0F3724896ADC005CF9F6 /* DSCMarsRoverClient.m in Sources */,
 				129F0F1A24889E64005CF9F6 /* URL+Secure.swift in Sources */,
-				129F0F2924895ED1005CF9F6 /* SolDescription.m in Sources */,
 				129F0F1C24895D79005CF9F6 /* MainCollectionViewController.swift in Sources */,
 				129F0F1724889E64005CF9F6 /* LSILog.m in Sources */,
+				129F0F3A24896B28005CF9F6 /* DSCMarsPhoto.m in Sources */,
 				129F0EF824889DFA005CF9F6 /* AppDelegate.m in Sources */,
 				129F0F0924889DFF005CF9F6 /* main.m in Sources */,
-				129F0F2624895EA4005CF9F6 /* MarsPhoto.m in Sources */,
-				129F0F2324895E78005CF9F6 /* MarsRoverClient.m in Sources */,
 				129F0F2B24896038005CF9F6 /* ImageCollectionViewCell.swift in Sources */,
 				129F0F1924889E64005CF9F6 /* LSIFileHelper.m in Sources */,
 				129F0EFB24889DFA005CF9F6 /* SceneDelegate.m in Sources */,
@@ -359,6 +365,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Deniscedeno.AstronomyObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AstronomyObjC/AstronomyObjC_Bridging_Header_h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,6 +384,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Deniscedeno.AstronomyObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = AstronomyObjC/AstronomyObjC_Bridging_Header_h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
